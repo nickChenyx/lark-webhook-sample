@@ -41,7 +41,7 @@ app.post('/webhook', (req, res) => {
 
   res.status(response.status)
   res.json(response)
-}
+})
 
 app.post('/webhook1', (req, res) => {
 
